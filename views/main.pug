@@ -1,0 +1,15 @@
+extends ./base.pug
+
+block content  
+    .mainBox 
+        h1.logo New Msg Page
+        form(action="#" method="post")
+            .loginLabel
+                label ID
+                input(type="text" name="input_id")
+
+            .longinLabel
+                label PassWord
+                input(type="text" name="input_pass")
+            input(type="submit" name="LOGIN")
+
